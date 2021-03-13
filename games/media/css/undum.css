@@ -1,5 +1,5 @@
 body {
-    background: #170804 url("../img/page_bg.jpg") repeat-x left top;
+    background: #170804 url("../img/ciudad.jpg") repeat-x left top;
     font-family: Palatino, Times, "Times New Roman", serif;
     font-size: 18px;
     line-height: 1.6em;
@@ -22,7 +22,7 @@ body {
 }
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
+    background: #e6e6c6 url("../img/universo.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
@@ -30,7 +30,7 @@ body {
 }
 #title .label {
     overflow: hidden;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #c6e1e6 url("../img/panel3.jpg") repeat left top;
     padding: 2.0em;
     margin: auto;
     max-width: 18em;
@@ -60,13 +60,13 @@ body {
 }
 #title h1, #title h2, #title h3 {
     color: rgba(33,17,0,0.9);
-    text-shadow: rgba(255,255,255,0.5) 2px 2px 2px,
+    text-shadow: rgba(255, 255, 255, 0.37) 2px 2px 2px,
     rgba(0,0,0,0.1) -1px -1px 2px;
 }
 #title h1 span.fancy {
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 0;
-    font-family: Tangerine, Palatino, Times, "Times New Roman", serif;
+    font-family: 'Times New Roman';
     font-style: italic;
     margin: 0 -0.2em;
 }
@@ -96,7 +96,7 @@ body {
 #content_wrapper {
     max-width: 28em;
     position: relative;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #e6e6c6 url("../img/panel2.jpg") repeat left top;
     margin: 0.6em auto 1.1em auto;
     padding: 2.8em;
     display: none; /* Shown by Javascript */
@@ -125,17 +125,7 @@ p + p, p + img + p, p + hr + p {
     font-weight: bold;
     color: rgba(0,0,0,0.85);
 }
-#content h1 + p:first-letter,
-#content h1 + img + p:first-letter {
-    position: relative;
-    padding-top: 0.1em;
-    display: block;
-    float: left;
-    font-weight: normal;
-    font-size: 3.2em;
-    line-height: 0.8em;
-    color: #210;
-}
+
 ul {
     margin: 0;
     padding: 0 0 0 1em;
@@ -171,8 +161,17 @@ h1 {
 h1:first-child {
     margin-top: 0;
 }
+
+#content a {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.13);
+    color: rgba(58, 17, 207, 0.795);
+    font-weight: bold;
+    padding: 2px;
+}
+
 a {
-    color: #900;
+    color:rgb(255, 206, 71);
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
@@ -210,7 +209,7 @@ img.float_left {
 .tools {
     padding: 0.6em;
     width: 8.9em;
-    background: #cec3ae url("../img/tools_bg.jpg") repeat left top;
+    background: #cec3ae url("../img/panel2.jpg") repeat left top;
     position: absolute;
 }
 .tools p {
@@ -259,7 +258,7 @@ img.float_left {
 
 #legal {
     max-width: 33em;
-    color: #654;
+    color: rgba(241, 118, 102, 0.884);
     margin: 1em auto 0 auto;
     padding-bottom: 2.2em;
     display: none; /* Shown by Javascript */
